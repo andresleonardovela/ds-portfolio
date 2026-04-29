@@ -10,5 +10,8 @@
   },
   "readme.md": {
     "readme.html": "9a94e349"
+  },
+  "projects/bank_churn/index.qmd": {
+    "index.html": "c1ce69fe"
   }
 }

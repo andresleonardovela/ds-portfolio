@@ -28,11 +28,46 @@
     "text": "You can find the source code and additional details for this portfolio website in the GitHub repository.\n\nFeel free to explore the site and reach out if you have any questions or opportunities to collaborate!"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Leonardo Vela Portfolio",
+    "objectID": "projects/bank_churn/index.html",
+    "href": "projects/bank_churn/index.html",
+    "title": "Project 01 — Baseline ML",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "¿Qué decisión habilita este modelo?"
+  },
+  {
+    "objectID": "projects/bank_churn/index.html#problem",
+    "href": "projects/bank_churn/index.html#problem",
+    "title": "Project 01 — Baseline ML",
+    "section": "",
+    "text": "¿Qué decisión habilita este modelo?"
+  },
+  {
+    "objectID": "projects/bank_churn/index.html#data",
+    "href": "projects/bank_churn/index.html#data",
+    "title": "Project 01 — Baseline ML",
+    "section": "2) Data",
+    "text": "2) Data\nFuente, variables, calidad, posibles sesgos."
+  },
+  {
+    "objectID": "projects/bank_churn/index.html#baseline-approach-v0",
+    "href": "projects/bank_churn/index.html#baseline-approach-v0",
+    "title": "Project 01 — Baseline ML",
+    "section": "3) Baseline approach (v0)",
+    "text": "3) Baseline approach (v0)\n\nSplit\nModelo base\nMétrica"
+  },
+  {
+    "objectID": "projects/bank_churn/index.html#results",
+    "href": "projects/bank_churn/index.html#results",
+    "title": "Project 01 — Baseline ML",
+    "section": "4) Results",
+    "text": "4) Results\nTabla simple de métricas + 2-3 insights."
+  },
+  {
+    "objectID": "projects/bank_churn/index.html#roadmap",
+    "href": "projects/bank_churn/index.html#roadmap",
+    "title": "Project 01 — Baseline ML",
+    "section": "5) Roadmap",
+    "text": "5) Roadmap\n\nv1: modularización (src/, configs)\nv2: tracking + registry (MLflow)\nv3: deploy (API) + CI/CD"
   },
   {
     "objectID": "about.html",
@@ -42,18 +77,25 @@
     "text": "Soy Leonardo Vela, Data Scientist. Me enfoco en proyectos con impacto de negocio, desde el baseline hasta despliegue y MLOps.\nStack: Python, SQL, Azure/Databricks, MLflow, etc.\n\nGitHub: https://github.com/andresleonardovela\nLinkedIn: https://linkedin.com/in/leonardovela"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Leonardo Vela Portfolio",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Goal: (1 línea)\nData: (fuente / sintético / público)\nMetric: (AUC/F1/etc.)\nLinks: repo, notebook, demo"
+    "text": "Goal: (1 línea)\nData: (fuente / sintético / público)\nMetric: (AUC/F1/etc.)\nLinks: repo, notebook, demo\nCase study: projects/bank_churn/index.qmd"
   },
   {
     "objectID": "projects.html#project-1-baseline-ml-notebook-modular-mlops",
     "href": "projects.html#project-1-baseline-ml-notebook-modular-mlops",
     "title": "Projects",
     "section": "",
-    "text": "Goal: (1 línea)\nData: (fuente / sintético / público)\nMetric: (AUC/F1/etc.)\nLinks: repo, notebook, demo"
+    "text": "Goal: (1 línea)\nData: (fuente / sintético / público)\nMetric: (AUC/F1/etc.)\nLinks: repo, notebook, demo\nCase study: projects/bank_churn/index.qmd"
   },
   {
     "objectID": "projects.html#project-2-recommendation-system",
