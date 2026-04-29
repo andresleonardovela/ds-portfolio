@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Leonardo Vela Portfolio",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\ngit commit + git push\nMLOps"
+  },
+  {
     "objectID": "readme.html",
     "href": "readme.html",
     "title": "Portfolio Website",
@@ -70,20 +77,6 @@
     "text": "5) Roadmap\n\nv1: modularización (src/, configs)\nv2: tracking + registry (MLflow)\nv3: deploy (API) + CI/CD"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Soy Leonardo Vela, Data Scientist. Me enfoco en proyectos con impacto de negocio, desde el baseline hasta despliegue y MLOps.\nStack: Python, SQL, Azure/Databricks, MLflow, etc.\n\nGitHub: https://github.com/andresleonardovela\nLinkedIn: https://linkedin.com/in/leonardovela"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Leonardo Vela Portfolio",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
@@ -103,5 +96,12 @@
     "title": "Projects",
     "section": "Project 2 — Recommendation System",
     "text": "Project 2 — Recommendation System\n\n(placeholder)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Soy Leonardo Vela, Data Scientist. Me enfoco en proyectos con impacto de negocio, desde el baseline hasta despliegue y MLOps.\nStack: Python, SQL, Azure/Databricks, MLflow, etc.\n\nGitHub: https://github.com/andresleonardovela\nLinkedIn: https://linkedin.com/in/leonardovela"
   }
 ]
