@@ -1,0 +1,22 @@
+---
+title: "Project 01 — Baseline ML"
+---
+
+## 1) Problem
+¿Qué decisión habilita este modelo?
+
+## 2) Data
+Fuente, variables, calidad, posibles sesgos.
+
+## 3) Baseline approach (v0)
+- Split
+- Modelo base
+- Métrica
+
+## 4) Results
+Tabla simple de métricas + 2-3 insights.
+
+## 5) Roadmap
+- v1: modularización (`src/`, configs)
+- v2: tracking + registry (MLflow)
+- v3: deploy (API) + CI/CD

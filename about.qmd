@@ -1,0 +1,10 @@
+---
+title: "About"
+---
+
+Soy Leonardo Vela, Data Scientist. Me enfoco en proyectos con impacto de negocio, desde el baseline hasta despliegue y MLOps.
+
+**Stack:** Python, SQL, Azure/Databricks, MLflow, etc.
+
+- GitHub: https://github.com/andresleonardovela
+- LinkedIn: https://linkedin.com/in/leonardovela

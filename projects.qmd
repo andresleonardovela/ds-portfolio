@@ -1,0 +1,13 @@
+---
+title: "Projects"
+---
+
+## Project 1 — Baseline ML (Notebook → Modular → MLOps)
+- **Goal:** (1 línea)
+- **Data:** (fuente / sintético / público)
+- **Metric:** (AUC/F1/etc.)
+- **Links:** repo, notebook, demo
+- **Case study**: projects/bank_churn/index.qmd
+
+## Project 2 — Recommendation System
+- (placeholder)

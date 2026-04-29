@@ -1,0 +1,48 @@
+Outsourcing Quilmes — Health Score basado en NPS (Mayo 2022 – Mayo 2023)
+Rol: Data Scientist
+Alcance: ~250.000 clientes
+Impacto medible: NPS 66 → 71 (+5 puntos) en 12 meses
+Contexto
+Quilmes utilizaba NPS como métrica clave de satisfacción, pero por volumen solo encuestaba aproximadamente al 10% de su base cada mes. Eso dejaba sin visibilidad a la mayoría de los clientes y dificultaba priorizar acciones preventivas.
+Desafío
+
+Medir “salud del cliente” sin encuestas para la mayoría.
+Transformar una predicción estadística en un indicador operativo y entendible por negocio.
+Integrar señales dispersas (ventas, logística, atención al cliente, uso de app) en un único score.
+
+Solución (qué construí)
+Diseñé un Health Score 0–100 para toda la cartera, basado en la probabilidad de ser Promotor (NPS 9–10):
+
+Entrené un modelo de clasificación binaria (Regresión Logística) para estimar promotor vs no-promotor.
+A partir de los coeficientes del modelo, construí un score interpretable y ponderado (0–100).
+Definí rangos accionables (salud baja/media/alta) que disparan distintas estrategias.
+
+Implementación (cómo lo hice)
+
+Datos transversales (cross-functional):
+
+Ventas: recencia/frecuencia, variación de volumen, mix, ticket
+Logística: cumplimiento, incidencias, demoras, calidad de entrega
+Atención al cliente: reclamos, tiempos de resolución, recurrencia
+App y recompensas: engagement, adopción de beneficios, hábitos de uso
+
+
+Modelo interpretable: la Regresión Logística permitió explicar “qué empuja” el score (drivers).
+Traducción a negocio: convertí la predicción en un score sencillo (0–100) y definí thresholds con usuarios finales para que fuese accionable.
+
+Resultados
+
+NPS aumentó de 66 a 71 (+5) en el período Mayo 2022–Mayo 2023.
+La organización pasó de trabajar con una señal parcial (10% encuestado) a tener cobertura completa con un score por cliente.
+Mejor priorización: clientes con salud baja recibían estrategias correctivas con foco y timing.
+
+Por qué fue clave
+
+Elegir un modelo explicable aceleró la adopción: el negocio confía más cuando entiende los drivers.
+La combinación de señales operativas (logística + soporte) tuvo un peso real en satisfacción, más allá de ventas.
+
+Qué podés mostrar en el portfolio (ideal)
+
+Un diagrama simple: Fuentes → Features → Modelo → Health Score → Acciones
+Un ejemplo de “Top drivers” (sin datos sensibles)
+Un gráfico antes/después del NPS + distribución del health score
