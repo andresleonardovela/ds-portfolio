@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – Leonardo Vela Portfolio</title>
+<title>Professional Experience – Leonardo Vela Portfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -97,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+    <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -120,8 +120,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#project-1-baseline-ml-notebook-modular-mlops" id="toc-project-1-baseline-ml-notebook-modular-mlops" class="nav-link active" data-scroll-target="#project-1-baseline-ml-notebook-modular-mlops">Project 1 — Baseline ML (Notebook → Modular → MLOps)</a></li>
-  <li><a href="#project-2-recommendation-system" id="toc-project-2-recommendation-system" class="nav-link" data-scroll-target="#project-2-recommendation-system">Project 2 — Recommendation System</a></li>
+  <li><a href="#outsourcing-quilmes-nps-based-health-score-may-2022-may-2023" id="toc-outsourcing-quilmes-nps-based-health-score-may-2022-may-2023" class="nav-link active" data-scroll-target="#outsourcing-quilmes-nps-based-health-score-may-2022-may-2023">Outsourcing Quilmes — NPS-Based Health Score (May 2022 – May 2023)</a></li>
+  <li><a href="#poc-demand-forecasting" id="toc-poc-demand-forecasting" class="nav-link" data-scroll-target="#poc-demand-forecasting">PoC — Demand forecasting</a></li>
   </ul>
 </nav>
     </div>
@@ -130,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Professional Experience</h1>
 </div>
 
 
@@ -147,18 +147,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project-1-baseline-ml-notebook-modular-mlops" class="level2">
-<h2 class="anchored" data-anchor-id="project-1-baseline-ml-notebook-modular-mlops">Project 1 — Baseline ML (Notebook → Modular → MLOps)</h2>
-<ul>
-<li><strong>Goal:</strong> (Identy most probably churn users)</li>
-<li><strong>Data:</strong> (fuente / sintético / público)</li>
-<li><strong>Metric:</strong> (AUC/F1/etc.)</li>
-<li><strong>Links:</strong> repo, notebook, demo</li>
-<li><strong>Case study</strong>: projects/bank_churn/index.qmd</li>
-</ul>
+<section id="outsourcing-quilmes-nps-based-health-score-may-2022-may-2023" class="level2">
+<h2 class="anchored" data-anchor-id="outsourcing-quilmes-nps-based-health-score-may-2022-may-2023">Outsourcing Quilmes — NPS-Based Health Score (May 2022 – May 2023)</h2>
+<p>Role: Data Scientist Scope: ~250,000 customers Measurable impact: NPS 66 → 71 (+5 points) in 12 months Context Quilmes used NPS as its key customer satisfaction metric, but due to volume constraints it surveyed only around 10% of its customer base each month. This left the majority of customers without visibility and made it difficult to prioritize preventive actions. Challenge</p>
+<p>Measure “customer health” without surveys for most of the base. Turn a statistical prediction into an operational, business-friendly indicator. Integrate scattered signals (sales, logistics, customer support, app usage) into a single score.</p>
+<p>Solution (what I built) I designed a 0–100 Health Score for the entire portfolio, based on the probability of being a Promoter (NPS 9–10):</p>
+<p>Trained a binary classification model (Logistic Regression) to estimate promoter vs.&nbsp;non-promoter probability. Used model coefficients to build an interpretable, weighted score (0–100). Defined actionable ranges (low / medium / high health) that triggered different strategies.</p>
+<p>Implementation (how I did it) Cross-functional data sources:</p>
+<p>Sales: recency/frequency, volume variation, product mix, average ticket Logistics: fulfillment, incidents, delays, delivery quality Customer support: complaints, resolution time, recurrence App &amp; rewards: engagement, benefit adoption, usage habits</p>
+<p>Interpretable model: Logistic Regression enabled clear explanations of what drives the score. Business translation: I converted the prediction into a simple 0–100 score and defined thresholds together with end users to ensure actionability. Results</p>
+<p>NPS increased from 66 to 71 (+5) during May 2022 – May 2023. The organization moved from working with a partial signal (10% surveyed) to full coverage with a per-customer score. Improved prioritization: low-health customers received focused, timely corrective strategies.</p>
+<p>Why this was key</p>
+<p>Choosing an explainable model accelerated adoption: the business trusts what it understands. Combining operational signals (logistics + support) had a real impact on satisfaction, beyond sales alone.</p>
+<p>What to showcase in a portfolio (ideal)</p>
+<p>A simple diagram: Sources → Features → Model → Health Score → Actions An example of “Top drivers” (without sensitive data) A before/after NPS chart plus the health score distribution</p>
 </section>
-<section id="project-2-recommendation-system" class="level2">
-<h2 class="anchored" data-anchor-id="project-2-recommendation-system">Project 2 — Recommendation System</h2>
+<section id="poc-demand-forecasting" class="level2">
+<h2 class="anchored" data-anchor-id="poc-demand-forecasting">PoC — Demand forecasting</h2>
 <ul>
 <li>(placeholder)</li>
 </ul>

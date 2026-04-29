@@ -35,44 +35,65 @@
     "text": "You can find the source code and additional details for this portfolio website in the GitHub repository.\n\nFeel free to explore the site and reach out if you have any questions or opportunities to collaborate!"
   },
   {
+    "objectID": "experiencia.html",
+    "href": "experiencia.html",
+    "title": "Professional Experience",
+    "section": "",
+    "text": "Role: Data Scientist Scope: ~250,000 customers Measurable impact: NPS 66 → 71 (+5 points) in 12 months Context Quilmes used NPS as its key customer satisfaction metric, but due to volume constraints it surveyed only around 10% of its customer base each month. This left the majority of customers without visibility and made it difficult to prioritize preventive actions. Challenge\nMeasure “customer health” without surveys for most of the base. Turn a statistical prediction into an operational, business-friendly indicator. Integrate scattered signals (sales, logistics, customer support, app usage) into a single score.\nSolution (what I built) I designed a 0–100 Health Score for the entire portfolio, based on the probability of being a Promoter (NPS 9–10):\nTrained a binary classification model (Logistic Regression) to estimate promoter vs. non-promoter probability. Used model coefficients to build an interpretable, weighted score (0–100). Defined actionable ranges (low / medium / high health) that triggered different strategies.\nImplementation (how I did it) Cross-functional data sources:\nSales: recency/frequency, volume variation, product mix, average ticket Logistics: fulfillment, incidents, delays, delivery quality Customer support: complaints, resolution time, recurrence App & rewards: engagement, benefit adoption, usage habits\nInterpretable model: Logistic Regression enabled clear explanations of what drives the score. Business translation: I converted the prediction into a simple 0–100 score and defined thresholds together with end users to ensure actionability. Results\nNPS increased from 66 to 71 (+5) during May 2022 – May 2023. The organization moved from working with a partial signal (10% surveyed) to full coverage with a per-customer score. Improved prioritization: low-health customers received focused, timely corrective strategies.\nWhy this was key\nChoosing an explainable model accelerated adoption: the business trusts what it understands. Combining operational signals (logistics + support) had a real impact on satisfaction, beyond sales alone.\nWhat to showcase in a portfolio (ideal)\nA simple diagram: Sources → Features → Model → Health Score → Actions An example of “Top drivers” (without sensitive data) A before/after NPS chart plus the health score distribution"
+  },
+  {
+    "objectID": "experiencia.html#outsourcing-quilmes-nps-based-health-score-may-2022-may-2023",
+    "href": "experiencia.html#outsourcing-quilmes-nps-based-health-score-may-2022-may-2023",
+    "title": "Professional Experience",
+    "section": "",
+    "text": "Role: Data Scientist Scope: ~250,000 customers Measurable impact: NPS 66 → 71 (+5 points) in 12 months Context Quilmes used NPS as its key customer satisfaction metric, but due to volume constraints it surveyed only around 10% of its customer base each month. This left the majority of customers without visibility and made it difficult to prioritize preventive actions. Challenge\nMeasure “customer health” without surveys for most of the base. Turn a statistical prediction into an operational, business-friendly indicator. Integrate scattered signals (sales, logistics, customer support, app usage) into a single score.\nSolution (what I built) I designed a 0–100 Health Score for the entire portfolio, based on the probability of being a Promoter (NPS 9–10):\nTrained a binary classification model (Logistic Regression) to estimate promoter vs. non-promoter probability. Used model coefficients to build an interpretable, weighted score (0–100). Defined actionable ranges (low / medium / high health) that triggered different strategies.\nImplementation (how I did it) Cross-functional data sources:\nSales: recency/frequency, volume variation, product mix, average ticket Logistics: fulfillment, incidents, delays, delivery quality Customer support: complaints, resolution time, recurrence App & rewards: engagement, benefit adoption, usage habits\nInterpretable model: Logistic Regression enabled clear explanations of what drives the score. Business translation: I converted the prediction into a simple 0–100 score and defined thresholds together with end users to ensure actionability. Results\nNPS increased from 66 to 71 (+5) during May 2022 – May 2023. The organization moved from working with a partial signal (10% surveyed) to full coverage with a per-customer score. Improved prioritization: low-health customers received focused, timely corrective strategies.\nWhy this was key\nChoosing an explainable model accelerated adoption: the business trusts what it understands. Combining operational signals (logistics + support) had a real impact on satisfaction, beyond sales alone.\nWhat to showcase in a portfolio (ideal)\nA simple diagram: Sources → Features → Model → Health Score → Actions An example of “Top drivers” (without sensitive data) A before/after NPS chart plus the health score distribution"
+  },
+  {
+    "objectID": "experiencia.html#poc-demand-forecasting",
+    "href": "experiencia.html#poc-demand-forecasting",
+    "title": "Professional Experience",
+    "section": "PoC — Demand forecasting",
+    "text": "PoC — Demand forecasting\n\n(placeholder)"
+  },
+  {
     "objectID": "projects/bank_churn/index.html",
     "href": "projects/bank_churn/index.html",
-    "title": "Project 01 — Baseline ML",
+    "title": "Bank churn — Baseline ML",
     "section": "",
-    "text": "¿Qué decisión habilita este modelo?"
+    "text": "Common problem address with data science. Based on data behaviour predict what clients have higher probability of stop buying the company services"
   },
   {
     "objectID": "projects/bank_churn/index.html#problem",
     "href": "projects/bank_churn/index.html#problem",
-    "title": "Project 01 — Baseline ML",
+    "title": "Bank churn — Baseline ML",
     "section": "",
-    "text": "¿Qué decisión habilita este modelo?"
+    "text": "Common problem address with data science. Based on data behaviour predict what clients have higher probability of stop buying the company services"
   },
   {
     "objectID": "projects/bank_churn/index.html#data",
     "href": "projects/bank_churn/index.html#data",
-    "title": "Project 01 — Baseline ML",
+    "title": "Bank churn — Baseline ML",
     "section": "2) Data",
     "text": "2) Data\nFuente, variables, calidad, posibles sesgos."
   },
   {
     "objectID": "projects/bank_churn/index.html#baseline-approach-v0",
     "href": "projects/bank_churn/index.html#baseline-approach-v0",
-    "title": "Project 01 — Baseline ML",
+    "title": "Bank churn — Baseline ML",
     "section": "3) Baseline approach (v0)",
     "text": "3) Baseline approach (v0)\n\nSplit\nModelo base\nMétrica"
   },
   {
     "objectID": "projects/bank_churn/index.html#results",
     "href": "projects/bank_churn/index.html#results",
-    "title": "Project 01 — Baseline ML",
+    "title": "Bank churn — Baseline ML",
     "section": "4) Results",
     "text": "4) Results\nTabla simple de métricas + 2-3 insights."
   },
   {
     "objectID": "projects/bank_churn/index.html#roadmap",
     "href": "projects/bank_churn/index.html#roadmap",
-    "title": "Project 01 — Baseline ML",
+    "title": "Bank churn — Baseline ML",
     "section": "5) Roadmap",
     "text": "5) Roadmap\n\nv1: modularización (src/, configs)\nv2: tracking + registry (MLflow)\nv3: deploy (API) + CI/CD"
   },
@@ -81,14 +102,14 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Goal: (1 línea)\nData: (fuente / sintético / público)\nMetric: (AUC/F1/etc.)\nLinks: repo, notebook, demo\nCase study: projects/bank_churn/index.qmd"
+    "text": "Goal: (Identy most probably churn users)\nData: (fuente / sintético / público)\nMetric: (AUC/F1/etc.)\nLinks: repo, notebook, demo\nCase study: projects/bank_churn/index.qmd"
   },
   {
     "objectID": "projects.html#project-1-baseline-ml-notebook-modular-mlops",
     "href": "projects.html#project-1-baseline-ml-notebook-modular-mlops",
     "title": "Projects",
     "section": "",
-    "text": "Goal: (1 línea)\nData: (fuente / sintético / público)\nMetric: (AUC/F1/etc.)\nLinks: repo, notebook, demo\nCase study: projects/bank_churn/index.qmd"
+    "text": "Goal: (Identy most probably churn users)\nData: (fuente / sintético / público)\nMetric: (AUC/F1/etc.)\nLinks: repo, notebook, demo\nCase study: projects/bank_churn/index.qmd"
   },
   {
     "objectID": "projects.html#project-2-recommendation-system",
