@@ -1,9 +1,9 @@
 ---
-title: "Project 01 — Baseline ML"
+title: "Bank churn — Baseline ML"
 ---
 
 ## 1) Problem
-¿Qué decisión habilita este modelo?
+Common problem address with data science. Based on data behaviour predict what clients have higher probability of stop buying the company services
 
 ## 2) Data
 Fuente, variables, calidad, posibles sesgos.

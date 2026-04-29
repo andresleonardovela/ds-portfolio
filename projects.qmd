@@ -3,7 +3,7 @@ title: "Projects"
 ---
 
 ## Project 1 — Baseline ML (Notebook → Modular → MLOps)
-- **Goal:** (1 línea)
+- **Goal:** (Identy most probably churn users)
 - **Data:** (fuente / sintético / público)
 - **Metric:** (AUC/F1/etc.)
 - **Links:** repo, notebook, demo

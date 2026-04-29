@@ -1,4 +1,8 @@
-Outsourcing Quilmes — NPS-Based Health Score (May 2022 – May 2023)
+---
+title: "Professional Experience"
+---
+
+## Outsourcing Quilmes — NPS-Based Health Score (May 2022 – May 2023)
 Role: Data Scientist
 Scope: ~250,000 customers
 Measurable impact: NPS 66 → 71 (+5 points) in 12 months
@@ -43,3 +47,6 @@ What to showcase in a portfolio (ideal)
 A simple diagram: Sources → Features → Model → Health Score → Actions
 An example of “Top drivers” (without sensitive data)
 A before/after NPS chart plus the health score distribution
+
+## PoC — Demand forecasting
+- (placeholder)
